@@ -112,6 +112,5 @@ module
     assign cpu_dmem_rdata = cpu_dmem_addr == 32'HA00003F4 ? {24'H0, uart_rdata} : 
                             cpu_dmem_addr == 32'HA00003F8 ? {31'H0, uart_ready} :
                                                             dmem_rdata;
-    
 
 endmodule
