@@ -1,2 +1,2 @@
 message(STATUS "Version: MacOS-AArch64.")
-message(STATUS "Built by Mac mini 2023, Ventura 13.5.1.")
+message(STATUS "Built by Apple M2, Ventura 13.5.1, Clang 17.0.3.")
