@@ -1,3 +1,5 @@
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
 add_library(RTL_TOP rtl_top.cpp dpi_c.cpp)
 
 find_package(VERILATOR HINTS $ENV{VERILATOR_ROOT})
@@ -10,3 +12,5 @@ verilate(   RTL_TOP
             DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/vtop
             TRACE
 )
+
+set(CMAKE_BUILD_TYPE Release)
