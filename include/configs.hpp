@@ -35,7 +35,7 @@ public:
     // you can change the default values here
     inline static Difftest difftestLevel = Difftest::NO_DIFFTEST;
     inline static bool dumpWaveform = false;
-    inline static std::string dumpPath = "waveform/waveform.vcd";
+    inline static std::string dumpPath = "waveform.vcd";
 };
 
 #endif // __CONFIGS_HPP__
